@@ -15,4 +15,4 @@ A new directory containing the sentry virtualenv will be created, all dependenci
 - user must be sudo
 - dependencies will be auto-installed
 - virtualenv will be installed along with pip3 (virtualenv will run on Python 3 to be future-proof)
-- you can specify a directory you haven't access to and it will be automatically (cho)wned to you
+- you can specify a directory you haven't access to and the created directory will be automatically (cho)wned to you
