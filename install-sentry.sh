@@ -28,5 +28,4 @@ pip install --upgrade pip
 pip install sentry
 # deactivate virtualenv
 deactivate
-# to use:
-# source VENVNAME_HERE/bin/activate
+
