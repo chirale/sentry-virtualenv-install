@@ -7,6 +7,7 @@ Install script tested on Ubuntu 18.04 for debian-based systems.
 ~~~
 cd /path/to/venvs/root;
 install-sentry.sh myenvname
+source myenvname/bin/activate
 ~~~
 
 A new directory containing the sentry virtualenv will be created.
