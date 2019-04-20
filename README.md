@@ -10,7 +10,8 @@ install-sentry.sh myenvname
 source myenvname/bin/activate
 ~~~
 
-A new directory containing the sentry virtualenv will be created.
+A new directory containing the sentry virtualenv will be created, all dependencies will be installed on the system and on virtualenv. All python 2 packages will be installed inside the virtualenv.
+
 - user must be sudo
 - dependencies will be auto-installed
 - virtualenv will be installed along with pip3 (virtualenv will run on Python 3 to be future-proof)
