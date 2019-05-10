@@ -25,8 +25,11 @@ After these steps, sentry can be installed as of https://docs.sentry.io/server/i
 1. Creating a new directory (e.g. /path/to/new/config/directory)
 2. Activating the virtualenv with `source /path/to/sentry/venv`
 3. Doing `sentry init /path/to/new/config/directory`
-4. Editing the .py and .yml file with connection data for database
+4. Create the database
+5. Editing the .py and .yml file with connection data for database
+6. Migrate https://docs.sentry.io/server/installation/python/#running-migrations
 
-E.g.
+
+### Path example
 - virtualenv in /usr/local/venv/sentry
 - sentry conf in /usr/local/etc/sentry
