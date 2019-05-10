@@ -16,3 +16,17 @@ A new directory containing the sentry virtualenv will be created, all dependenci
 - dependencies will be auto-installed
 - virtualenv will be installed along with pip3 (virtualenv will run on Python 3 to be future-proof)
 - you can specify a directory you haven't access to and the created directory will be automatically (cho)wned to you
+
+
+## Next
+
+After these steps, sentry can be installed as of https://docs.sentry.io/server/installation/python/#initializing-the-configuration:
+
+1. Creating a new directory (e.g. /path/to/new/config/directory)
+2. Activating the virtualenv with `source /path/to/sentry/venv`
+3. Doing `sentry init /path/to/new/config/directory`
+4. Editing the .py and .yml file with connection data for database
+
+E.g.
+- virtualenv in /usr/local/venv/sentry
+- sentry conf in /usr/local/etc/sentry
