@@ -3,7 +3,7 @@ Blatantly ignore deprecation in favor of docker and use the simpler virtualenv t
 
 Install script tested on Ubuntu 18.04 for debian-based systems.
 
-## Usage
+## Install last available sentry
 ~~~
 cd /path/to/venvs/root;
 install-sentry.sh myenvname
@@ -18,7 +18,7 @@ A new directory containing the sentry virtualenv will be created, all dependenci
 - you can specify a directory you haven't access to and the created directory will be automatically (cho)wned to you
 
 
-## Next
+## Initialize
 
 After these steps, sentry can be installed as of https://docs.sentry.io/server/installation/python/#initializing-the-configuration:
 
@@ -33,3 +33,7 @@ After these steps, sentry can be installed as of https://docs.sentry.io/server/i
 ### Path example
 - virtualenv in /usr/local/venv/sentry
 - sentry conf in /usr/local/etc/sentry
+
+## Recreate virtualenv on system upgrade
+
+When system libraries are upgraded there could be errors running the existing virtualenv. Check install-sentry-911.sh for a custom case to deploy a new virtualenv for an existing Sentry installation, then simply source bin/activate the new virtualenv on start scripts.
