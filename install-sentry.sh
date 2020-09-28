@@ -4,7 +4,7 @@ VENVNAME=$1
 set -e
 WHO=`whoami`
 # install dependencies
-sudo apt-get install python-setuptools python-dev libxslt1-dev gcc libffi-dev libjpeg-dev libxml2-dev libxslt-dev libyaml-dev libpq-dev
+sudo apt-get install python-setuptools python-dev libxslt1-dev gcc libffi-dev libjpeg-dev libxml2-dev libxslt-dev libyaml-dev libpq-dev libxmlsec1-dev xmlsec1
 # install virtualenv for pip3
 read -p "Will install Sentry on: ${VENVNAME}. Continue? y [n]" -n 1 -r
 echo    # (optional) move to a new line
