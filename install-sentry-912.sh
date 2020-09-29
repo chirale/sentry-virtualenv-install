@@ -29,7 +29,7 @@ source ${VENVNAME}/bin/activate
 pip install --upgrade pip
 # install sentry
 # pip install --no-binary :all: sentry==9.1.1
-pip install sentry==9.1.1
+pip install sentry==9.1.2
 # @see https://stackoverflow.com/a/54253374
 pip install --no-binary :all: psycopg2==2.7.7 --ignore-installed
 pip install --no-binary :all: uwsgi --ignore-installed

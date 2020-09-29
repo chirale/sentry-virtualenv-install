@@ -41,4 +41,4 @@ If the virtualenv is broken, it can be recreated
 
 ### Recreate virtualenv on system upgrade
 
-When system libraries are upgraded there could be errors running the existing virtualenv. Check install-sentry-911.sh for a custom case to deploy a new virtualenv for an existing Sentry installation, then simply source bin/activate the new virtualenv on start scripts after stopping the old one.
+When system libraries are upgraded there could be errors running the existing virtualenv. Check install-sentry-912.sh for a custom case to deploy a new virtualenv for an existing Sentry installation, then simply source bin/activate the new virtualenv on start scripts after stopping the old one.
